@@ -26,6 +26,10 @@ A backend service that receives, stores, and exposes webhook events from any sou
 Demonstrates layered MVC architecture, Repository pattern, SOLID principles, and production deployment on Render.
 `Python` `FastAPI` `SQLAlchemy` `SQLite` `Pydantic v2` · [Live demo](https://webhook-logger-9paz.onrender.com)
 
+### [envcheck](https://github.com/federicomoroz/envcheck)
+A zero-dependency CLI tool that validates `.env` against `.env.example` — catches missing and empty variables before they cause runtime errors. Usable as a CI pre-deploy check via exit codes.
+`Python` `CLI`
+
 ---
 
 ## Tech
