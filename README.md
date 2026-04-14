@@ -26,6 +26,14 @@ A backend service that receives, stores, and exposes webhook events from any sou
 Demonstrates layered MVC architecture, Repository pattern, SOLID principles, and production deployment on Render.
 `Python` `FastAPI` `SQLAlchemy` `SQLite` `Pydantic v2` · [Live demo](https://webhook-logger-9paz.onrender.com)
 
+### [dollar-tracker](https://github.com/federicomoroz/dollar-tracker)
+A scheduled service that fetches unofficial USD/ARS exchange rates from multiple Argentine sources, persists them, and delivers daily email digests. Demonstrates APScheduler, multi-source aggregation, SendGrid integration, and async event-driven logging.
+`Python` `FastAPI` `SQLAlchemy` `APScheduler` `SendGrid`
+
+### [rate-guardian](https://github.com/federicomoroz/rate-guardian)
+An API gateway with sliding-window rate limiting, a Redis-backed circuit breaker, transparent HTTP proxying, and a real-time terminal dashboard. Pipeline architecture with composable steps and pub/sub event bus.
+`Python` `FastAPI` `Redis` `SQLite` `httpx`
+
 ### [envcheck](https://github.com/federicomoroz/envcheck)
 A zero-dependency CLI tool that validates `.env` against `.env.example` — catches missing and empty variables before they cause runtime errors. Usable as a CI pre-deploy check via exit codes.
 `Python` `CLI`
